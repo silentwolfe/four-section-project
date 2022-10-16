@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ font-size: 15px;
+}
+
+body {
+  background-color: whitesmoke;
+  background-size: cover;
+}
+
+.d {
+  text-align: center;
+  padding-top: 12px;
+  line-height: 20px;
+  color: hsl(229, 6%, 66%);
+}
+
+header {
+text-align: center;
+font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  color:  hsl(234, 12%, 34%);
+}
+
+.class {
+  font-size: 30px;
+}
+
+.clss {
+  padding-top: 50px;
+  padding-bottom: 0px;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+
+main {
+    max-width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 0;
+    overflow: hidden;
+}
+.sect-one {
+  width: 300px;
+  height: 250px;
+  background-color: white;
+  border-top: 3px solid hsl(212, 86%, 64%);
+  margin-left: 30px;
+  margin-top: 200px;
+  transform: translateY(50%);
+}
+
+.sect-two {
+  width: 300px;
+  height: 250px;
+  background-color: white;
+  border-top: 3px solid  hsl(0, 78%, 62%);
+  margin-left: 20px;
+  margin-top: 70px;
+}
+
+
+.sect-three {
+  width: 300px;
+  height: 250px;
+  background-color: white;
+  border-top: 3px solid  hsl(180, 62%, 55%);
+  margin-left: 20px;
+  margin-top: 200px;
+  transform: translateY(50%);
+}
+
+.sect-four {
+  width: 300px;
+  height: 250px;
+  background-color: white;
+  border-top: 3px solid  hsl(34, 97%, 64%);
+  margin-left: 50px;
+  margin-top: 0px;
+  
+ 
+}
+
+.box{
+  position: relative;
+  margin: 15px;
+  padding: 30px;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.box img {
+  margin-left: auto;
+  display: block;
+  width: 50px;
+  padding-top: 60px;
+}
+
+.box p {
+  line-height: 20px;
+  color:  hsl(229, 6%, 66%);
+}
+
+.box h2 {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .box-down {
+      transform: translateY(0);
+    }
+}
+
+@media (max-width: 450px) {
+  main {
+    display: block;
+  }
+  header {
+    text-align: left;
+  }
+  
+  .d {
+    text-align: left;
+  }
+}
+@media (max-width: 989px) {
+  .box-down {
+    transform: translateY(0);
+  }
+}
